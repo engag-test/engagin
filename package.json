@@ -1,0 +1,16 @@
+{
+  "name": "engagin",
+  "version": "1.0.0",
+  "description": "EngagIn — Employee Engagement & Recognition Platform",
+  "scripts": {
+    "start": "npx serve public -p 3000",
+    "dev": "npx serve public -p 3000 --open",
+    "build": "echo 'Static site - no build step needed'",
+    "preview": "npx serve public -p 4000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "keywords": ["employee-engagement", "recognition", "hr-tech"],
+  "license": "MIT"
+}
